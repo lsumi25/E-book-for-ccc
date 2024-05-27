@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>사진 갤러리</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-container">
+        <img id="backgroundImage" src="img1.jpg" alt="첫 번째 이미지">
+        <a id="foregroundLink" href="https://www.notion.so/871fc48e71184655a37be363650ee292?pvs=4" target="_blank">
+            <img id="foregroundImage" src="" alt="인물 이미지" style="display:none;">
+        </a>
+    </div>
+
+    <div class="button-container">
+        <button onclick="prevImage()"><</button>
+        <button onclick="nextImage()">></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

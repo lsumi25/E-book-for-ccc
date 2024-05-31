@@ -13,18 +13,17 @@ body, html {
     justify-content: center;
 }
 
-#backgroundImage, #foregroundImage {
-    max-width: 600px;
-    max-height: 400px;
+#backgroundImage {
+    width: 835.8px; /* 배경 이미지의 너비를 2388px로 설정 */
+    height: 583px; /* 배경 이미지의 높이를 1668px로 설정 */
 }
-
 
 #foregroundImage {
     position: absolute;
-    right: 184.5px; /* 화면 오른쪽 경계로부터 10px 떨어진 위치 */
-    bottom: 164px; /* 화면 하단 경계로부터 10px 떨어진 위치 */
-    max-width: 181px; /* 이미지의 최대 너비 */
-    max-height: 181px; /* 이미지의 최대 높이 */
+    right: 270px; /* 화면 오른쪽 경계로부터 10px 떨어진 위치 */
+    bottom: 242px; /* 화면 하단 경계로부터 10px 떨어진 위치 */
+    max-width: 260px; /* 이미지의 최대 너비 */
+    max-height: 260px; /* 이미지의 최대 높이 */
 }
 
 
@@ -33,3 +32,4 @@ body, html {
     justify-content: center;
     gap: 10px; /* 버튼 사이의 간격 */
 }
+
